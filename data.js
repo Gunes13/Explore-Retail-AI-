@@ -652,9 +652,9 @@ export const useCaseData = {
     ],
     strategicTakeaway: "Marriott's use of sentiment analysis shows the power of listening to the customer at scale. For Penti, this highlights an opportunity to use AI to systematically analyze customer feedback from reviews and social media to identify product/service issues and emerging trends proactively.",
     relatedConcepts: [{ id: 'ai-customer-service', name: 'AI-Powered Customer Service' }]
-},
-            {
-                id: 'mands-contact-center',
+}, // <<< The missing comma was added here
+{
+    id: 'mands-contact-center',
                 company: 'M&S (Marks & Spencer)',
                 concept: 'AI-Powered Contact Center Transformation',
                 logo: 'https://logo.clearbit.com/marksandspencer.com',
