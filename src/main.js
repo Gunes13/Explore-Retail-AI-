@@ -152,8 +152,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const sectionDiv = document.getElementById(key);
             if (sectionDiv && section.cases) {
                 let cardHTML = (section.cases).map(uc => {
-                    const logo = uc.logo || 'https://logo.clearbit.com/clearbit.com'; // Fallback logo
-                    return `<a href="#${uc.id}" class="card"><img src="${logo}" alt="${uc.company} Logo" class="h-12 mx-auto mt-5 mb-4 object-contain"><div class="card-content"><h3 class="font-bold text-lg text-zinc-800">${uc.company}</h3><p class="text-sm text-zinc-500">${uc.concept}</p></div></a>`
+                    let logoImg = ''; // Start with an empty variable for the logo
+                    if (uc.company !== 'Key Concept') { // Check if the company is NOT 'Key Concept'
+                        const logo = uc.logo || 'https://logo.clearbit.com/clearbit.com';
+                        logoImg = `<img src="${logo}" alt="${uc.company} Logo" class="h-12 mx-auto mt-5 mb-4 object-contain">`;
+                    }
+                    // The return statement now uses the logoImg variable
+                    return `<a href="#${uc.id}" class="card">
+                                ${logoImg}
+                                <div class="card-content">
+                                    <h3 class="font-bold text-lg text-zinc-800">${uc.company}</h3>
+                                    <p class="text-sm text-zinc-500">${uc.concept}</p>
+                                </div>
+                            </a>`
                 }).join('');
                 let sectionHTML = `<div class="text-center mb-10"><h2 class="text-3xl font-bold text-zinc-900">${section.name}</h2><p class="mt-2 max-w-2xl mx-auto text-zinc-600">${section.description}</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">${cardHTML}</div>`;
                 sectionDiv.innerHTML = sectionHTML;
