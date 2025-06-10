@@ -1,3 +1,4 @@
+// Forcing a fresh update to resolve build issue
 export const presentationContext = `
 Strategic Imperatives for Penti:
 - Imperative 1: Market Growth & Adoption. The AI in retail market is growing rapidly. Generative AI in retail is projected to grow from $1.015B in 2025 to $17.268B by 2034. 89% of retailers are expected to use AI by 2025.
