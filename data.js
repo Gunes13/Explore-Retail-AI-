@@ -319,29 +319,29 @@ export const useCaseData = {
         description: 'AI is revolutionizing backend retail operations, making them more accurate, efficient, and responsive across the entire value chain.',
         cases: [
             {
-                id: 'clo-set-workflow',
-                company: 'CLO-SET',
-                concept: 'The Collaborative 3D Workflow Platform',
-                logo: 'https://logo.clearbit.com/clo-set.com',
-                image: '/images/closet.png',
-                imperativeLink: 'Imperative 2: AI as a Catalyst',
-                isCustom: true,
-                youtubeUrl: null,
-                businessModel: "CLO-SET is a B2B platform that unifies the entire fashion product lifecycle into a single, collaborative digital workspace. By providing tools for 3D design, virtual reviews, automated tech packs, and virtual showrooms, it allows brands to maximize the value of their 3D assets, accelerate speed-to-market, and reduce reliance on physical samples. It is a leading platform in a competitive space that also includes players like Browzwear.",
-                processSteps: [
-                    { icon: 'ai', title: '3D Asset Creation & Collaboration', description: 'Design teams create true-to-life 3D garments and collaborate in a shared digital space, replacing early-stage physical prototypes.' },
-                    { icon: 'human', title: 'Virtual Assortment Review', description: 'Merchandising and design teams use the digital "Assortment Room" to hold virtual design reviews and build collections collaboratively.' },
-                    { icon: 'data', title: 'Automated Tech Pack Generation', description: 'The platform automatically extracts all bills of materials, specifications, and other data from the 3D asset to communicate with vendors.' },
-                    { icon: 'feedback', title: 'Go-to-Market with 3D Assets', description: 'The final 3D models can be embedded directly onto e-commerce sites or used in virtual showrooms for B2B sales.' }
-                ],
-                quantifiedImpact: [
-                    { metric: '50% Sample Reduction', description: 'Brands like **Kookai** leverage platforms like CLO to cut physical sampling by half.', videoUrl: 'https://www.youtube.com/watch?v=WiPRSFKRV5g' },
-                    { metric: 'Reduced Prototypes', description: '**Dainese** successfully reduced its number of physical prototypes and is now planning 3D e-commerce configurators.', videoUrl: 'https://cdn.clo3d.com/resource/videos/company/cloUsers/userStory/dianese.mp4' },
-                    { metric: 'End-to-End Workflow', description: 'Provides a single source of truth from initial concept to final marketing asset, reducing errors and improving efficiency.' }
-                ],
-                strategicTakeaway: "The maturation of end-to-end platforms like CLO-SET shows that 3D design is no longer a niche tool but a foundational workflow for modern fashion brands. For Penti, this highlights the opportunity to leverage such platforms to streamline the entire value chain, fostering better collaboration, increasing speed, and cutting costs.",
-                relatedConcepts: [{ id: '3dvd-digital-twins', name: '3DVD & Digital Twins' }]
-            },
+    id: 'clo-set-workflow',
+    company: 'CLO-SET',
+    concept: 'The Collaborative 3D Workflow Platform',
+    logo: 'https://logo.clearbit.com/clo-set.com',
+    image: '/images/closet.png',
+    imperativeLink: 'Imperative 2: AI as a Catalyst',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "CLO-SET is a B2B platform that unifies the entire fashion product lifecycle into a single, collaborative digital workspace. By providing tools for 3D design, virtual reviews, automated tech packs, and virtual showrooms, it allows brands to maximize the value of their 3D assets, accelerate speed-to-market, and reduce reliance on physical samples. It is a leading platform in a competitive space that also includes players like Browzwear.",
+    processSteps: [
+        { icon: 'ai', title: '3D Asset Creation & Collaboration', description: 'Design teams create true-to-life 3D garments and collaborate in a shared digital space, replacing early-stage physical prototypes.' },
+        { icon: 'human', title: 'Virtual Assortment Review', description: 'Merchandising and design teams use the digital "Assortment Room" to hold virtual design reviews and build collections collaboratively.' },
+        { icon: 'data', title: 'Automated Tech Pack Generation', description: 'The platform automatically extracts all bills of materials, specifications, and other data from the 3D asset to communicate with vendors.' },
+        { icon: 'feedback', title: 'Go-to-Market with 3D Assets', description: 'The final 3D models can be embedded directly onto e-commerce sites or used in virtual showrooms for B2B sales.' }
+    ],
+    quantifiedImpact: [
+        { metric: '50% Sample Reduction', description: 'Brands like **Kookai** leverage platforms like CLO to cut physical sampling by half.', videoUrl: 'https://www.youtube.com/watch?v=WiPRSFKRV5g' },
+        { metric: 'Reduced Prototypes', description: '**Dainese** successfully reduced its number of physical prototypes and is now planning 3D e-commerce configurators.', videoUrl: 'https://cdn.clo3d.com/resource/videos/company/cloUsers/userStory/dianese.mp4' },
+        { metric: 'End-to-End Workflow', description: 'Provides a single source of truth from initial concept to final marketing asset, reducing errors and improving efficiency.' }
+    ],
+    strategicTakeaway: "The maturation of end-to-end platforms like CLO-SET shows that 3D design is no longer a niche tool but a foundational workflow for modern fashion brands. For Penti, this highlights the opportunity to leverage such platforms to streamline the entire value chain, fostering better collaboration, increasing speed, and cutting costs.",
+    relatedConcepts: [{ id: '3dvd-digital-twins', name: '3DVD & Digital Twins' }]
+},
             {
                 id: 'walmart-replenishment',
                 company: 'Walmart',
