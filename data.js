@@ -635,15 +635,24 @@ export const useCaseData = {
                 relatedConcepts: [{ id: 'conversational-commerce', name: 'AI-Powered Conversational Commerce' }]
             },
             {
-                id: 'marriott-sentiment-analysis',
-                company: 'Marriott International',
-                concept: 'AI for Guest Sentiment Analysis',
-                logo: 'https://logo.clearbit.com/marriott.com',
-                image: '/images/marriott.png',
-                imperativeLink: 'Transformation 3: Customer Engagement',
-                details: 'Marriott International utilizes AI-powered sentiment analysis to process guest feedback from thousands of properties worldwide. The system analyzes reviews and social media to identify key themes and sentiments, allowing the company to proactively address issues and drive operational improvements.',
-                impact: ['Enables proactive, data-driven issue resolution at the property level.', 'Improves overall service standards by benchmarking performance globally.', 'Enhances the guest experience and strengthens brand reputation.']
-            },
+               id: 'marriott-sentiment-analysis',
+    company: 'Marriott International',
+    concept: 'AI for Guest Sentiment Analysis',
+    logo: 'https://logo.clearbit.com/marriott.com',
+    image: '/images/marriott.png',
+    imperativeLink: 'Transformation 3: Customer Engagement',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "Marriott International utilizes AI-powered sentiment analysis to process guest feedback from thousands of properties worldwide. The system analyzes reviews and social media to identify key themes and sentiments, allowing the company to proactively address issues and drive operational improvements.",
+    processSteps: [],
+    quantifiedImpact: [
+        { metric: 'Proactive Resolution', description: 'Enables proactive, data-driven issue resolution at the property level.' },
+        { metric: 'Improved Standards', description: 'Improves overall service standards by benchmarking performance globally.' },
+        { metric: 'Enhanced Experience', description: 'Enhances the guest experience and strengthens brand reputation.' }
+    ],
+    strategicTakeaway: "Marriott's use of sentiment analysis shows the power of listening to the customer at scale. For Penti, this highlights an opportunity to use AI to systematically analyze customer feedback from reviews and social media to identify product/service issues and emerging trends proactively.",
+    relatedConcepts: [{ id: 'ai-customer-service', name: 'AI-Powered Customer Service' }]
+},
             {
                 id: 'mands-contact-center',
                 company: 'M&S (Marks & Spencer)',
