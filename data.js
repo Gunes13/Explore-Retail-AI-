@@ -1407,4 +1407,4 @@ image: '/images/googleretail.png',                imperativeLink: "Imperative 1:
             relatedConcepts: []
         }
     ]
-},
+}
