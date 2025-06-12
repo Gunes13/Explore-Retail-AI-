@@ -1194,46 +1194,46 @@ export const useCaseData = {
                 name: 'Agentic AI & The Machine Customer'
             }]
         }, {
-            id: 'google-genai-shopping',
-            company: 'Google',
-            concept: 'AI-Powered Visual & Conversational Shopping',
-            logo: 'https://logo.clearbit.com/google.com',
-            image: '/images/googleshopping.png',
-            imperativeLink: 'Transformation 4: Generative & Agentic AI',
-            isCustom: true,
-            youtubeUrl: null,
-            businessModel: "Google is integrating its advanced AI capabilities (Gemini) directly into its core search and shopping platforms. This strategy aims to transform online shopping from a keyword-driven task into a visual, conversational, and highly personalized journey, increasing user engagement and solidifying Google's role as the primary starting point for product discovery.",
-            processSteps: [{
-                icon: 'ai',
-                title: 'AI Mode Engages User',
-                description: 'A user initiates a search in "AI Mode," allowing the Gemini-powered system to understand complex intent beyond simple keywords and provide visual, inspirational product suggestions.'
-            }, {
-                icon: 'human',
-                title: 'Personalized VTO Experience',
-                description: "Users can upload their own photo to virtually try on clothing. A custom generative AI model renders the item realistically on the user's specific body type."
-            }, {
-                icon: 'feedback',
-                title: 'Refined Product Discovery',
-                description: 'Based on visual feedback and conversational cues, the AI further refines product listings, guiding the user from broad inspiration to a specific purchase decision.'
-            }],
-            quantifiedImpact: [{
-                metric: '50 Billion+ Products',
-                description: "Leverages Google's Shopping Graph, which contains over 50 billion product listings, to provide comprehensive results."
-            }, {
-                metric: 'Personal Photo VTO',
-                description: 'Introduces the ability for users to upload their own photo for a hyper-realistic virtual try-on experience, a significant step beyond using generic models.',
-                videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Try_it_on_Title_page_5.mp4'
-            }, {
-                metric: 'Gemini Integration',
-                description: 'Directly integrates the advanced conversational and reasoning capabilities of Gemini into the shopping journey.',
-                videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Copy_of_AI_Mode_Travel_Bag_1.mp4'
-            }, {
-                metric: 'Custom GenAI Model',
-                description: 'Utilizes a custom-built generative AI model specifically for fashion to accurately simulate fabric drape and fit.',
-                videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Try_it_on_Women_s_1.mp4'
-            }],
-            strategicTakeaway: "Google's move demonstrates a push to own the 'top of the funnel' in retail by making product discovery more intuitive and visual. By integrating powerful generative AI for both conversation (AI Mode) and visualization (VTO), Google aims to create a 'data moat' based on user interaction, making its shopping ecosystem the most helpful starting point and therefore indispensable for retailers to participate in."
-        }, {
+    id: 'google-genai-shopping',
+    company: 'Google',
+    concept: 'AI-Powered Visual & Conversational Shopping',
+    logo: 'https://logo.clearbit.com/google.com',
+    image: '/images/googleshopping.png',
+    imperativeLink: 'Transformation 4: Generative & Agentic AI',
+    isCustom: true,
+    youtubeUrl: 'https://www.youtube.com/watch?v=hb9V6jn6siI', // <-- MAIN VIDEO LINK ADDED
+    businessModel: "Google is integrating its advanced AI capabilities (Gemini) directly into its core search and shopping platforms. This strategy aims to transform online shopping from a keyword-driven task into a visual, conversational, and highly personalized journey, increasing user engagement and solidifying Google's role as the primary starting point for product discovery.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'AI Mode Engages User',
+        description: 'A user initiates a search in "AI Mode," allowing the Gemini-powered system to understand complex intent beyond simple keywords and provide visual, inspirational product suggestions.'
+    }, {
+        icon: 'human',
+        title: 'Personalized VTO Experience',
+        description: "Users can upload their own photo to virtually try on clothing. A custom generative AI model renders the item realistically on the user's specific body type."
+    }, {
+        icon: 'feedback',
+        title: 'Refined Product Discovery',
+        description: 'Based on visual feedback and conversational cues, the AI further refines product listings, guiding the user from broad inspiration to a specific purchase decision.'
+    }],
+    quantifiedImpact: [{
+        metric: '50 Billion+ Products',
+        description: "Leverages Google's Shopping Graph, which contains over 50 billion product listings, to provide comprehensive results."
+    }, {
+        metric: 'Personal Photo VTO',
+        description: 'Introduces the ability for users to upload their own photo for a hyper-realistic virtual try-on experience, a significant step beyond using generic models.',
+        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Try_it_on_Title_page_5.mp4'
+    }, {
+        metric: 'Gemini Integration',
+        description: 'Directly integrates the advanced conversational and reasoning capabilities of Gemini into the shopping journey.',
+        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Copy_of_AI_Mode_Travel_Bag_1.mp4' // <-- VIDEO LINK ADDED
+    }, {
+        metric: 'Custom GenAI Model',
+        description: 'Utilizes a custom-built generative AI model specifically for fashion to accurately simulate fabric drape and fit.',
+        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Copy_of_AI_Mode_Travel_Bag_1.mp4' // <-- VIDEO LINK ADDED
+    }],
+    strategicTakeaway: "Google's move demonstrates a push to own the 'top of the funnel' in retail by making product discovery more intuitive and visual. By integrating powerful generative AI for both conversation (AI Mode) and visualization (VTO), Google aims to create a 'data moat' based on user interaction, making its shopping ecosystem the most helpful starting point and therefore indispensable for retailers to participate in."
+}, {
             id: 'suzano-genai-materials',
             company: 'Suzano',
             concept: 'AI-Powered Sustainable Materials Management',
