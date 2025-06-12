@@ -58,8 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <button id="close-modal" class="text-zinc-400 hover:text-zinc-800 text-3xl font-light leading-none ml-4">×</button>
                 </div>
                 <div class="p-6 md:p-8">
-                    <img src="${data.image || ''}" alt="${data.company} Use Case" class="w-full h-auto max-h-96 object-contain rounded-lg mb-6 bg-zinc-200 ${data.image ? '' : 'hidden'}">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    // This is the new line
+                    ${data.image ? `<img src="${data.image}" alt="${data.company} Use Case" class="w-full h-auto max-h-96 object-contain rounded-lg mb-6 bg-zinc-200">` : ''}
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
                             <h4 class="font-bold text-lg text-zinc-800 mb-2">The AI-Native Business Model</h4>
                             <p class="text-zinc-600">${businessModel}</p>
