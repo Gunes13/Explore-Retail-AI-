@@ -30,54 +30,54 @@ export const useCaseData = {
         name: 'Hyper-Personalization',
         description: 'Moving beyond broad segmentation to one-to-one engagement, AI leverages vast data to deliver individualized journeys, products, and interactions at scale.',
         cases: [{
-            id: 'zalando-genai',
-            company: 'Zalando',
-            concept: 'The Algorithmic Fashion Companion',
-            logo: 'https://logo.clearbit.com/zalando.com',
-            image: '/images/Zalando.png',
-            imperativeLink: 'Transformation 1: Hyper-Personalization at Scale',
-            isCustom: true,
-            youtubeUrl: null,
-            businessModel: "Zalando's strategy is to create a holistic 'Algorithmic Fashion Companion' that uses multiple AI capabilities to assist customers across their entire journey. The model goes beyond simple recommendations to provide curated styling, personalized fit advice, and engaging, trend-driven content, making the shopping experience deeply personal and sticky.",
-            processSteps: [{
-                icon: 'ai',
-                title: 'AI-Powered Curation & Styling',
-                description: 'An AI fashion assistant provides curated suggestions and entire outfit recommendations based on a customer\'s free-form queries and preferences.'
-            }, {
-                icon: 'feedback',
-                title: 'Personalized Size & Fit Prediction',
-                description: 'The system uses data on purchase history, brand affinities, and, crucially, past returns to predict the best size for a customer, aiming to reduce return rates.'
-            }, {
-                icon: 'human',
-                title: 'Localized & Multilingual Support',
-                description: 'The AI is trained to handle multiple languages and dialects, tracking city-based trends to provide more culturally and geographically relevant style advice.'
-            }, {
-                icon: 'data',
-                title: 'Trend-Responsive Content',
-                description: 'Zalando uses Generative AI to create marketing imagery in days instead of weeks, allowing it to rapidly build campaigns around fast-moving micro-trends.'
-            }],
-            quantifiedImpact: [{
-                metric: 'Algorithmic Fashion Companion',
-                description: 'The AI acts as a personal stylist, offering outfit suggestions and complementary accessories, not just single products.'
-            }, {
-                metric: 'Reduced Returns via Sizing',
-                description: 'A core goal of the AI is to leverage customer data to provide better size recommendations, directly tackling a major cost driver in apparel e-commerce.'
-            }, {
-                metric: 'Hyper-Responsive Marketing',
-                description: 'Generative AI reduces content creation time from 6-8 weeks to just 3-4 days, enabling immediate campaigns for emerging trends.'
-            }, {
-                metric: 'Localized Engagement',
-                description: 'By tracking city-level trends and understanding local nuances, the AI can offer far more relevant and engaging recommendations.'
-            }],
-            strategicTakeaway: "Zalando is building a comprehensive AI 'companion' that combines multiple capabilities (personalization, size prediction, generative content) to create a deeply integrated and sticky customer experience. For Penti, this shows that the future isn't about a single AI feature, but about weaving multiple AI tools together to assist the customer at every single touchpoint, from inspiration and discovery to post-purchase satisfaction.",
-            relatedConcepts: [{
-                id: 'data-feedback-loop',
-                name: 'The Data Feedback Loop'
-            }, {
-                id: 'multimodal-ai',
-                name: 'Multimodal AI'
-            }]
-        }, {
+    id: 'zalando-genai',
+    company: 'Zalando',
+    concept: 'The Algorithmic Fashion Companion',
+    logo: 'https://logo.clearbit.com/zalando.com',
+    image: '/images/Zalando.png',
+    imperativeLink: 'Transformation 1: Hyper-Personalization at Scale',
+    isCustom: true,
+    youtubeUrl: 'https://www.youtube.com/watch?v=Bp272rQQJJo', // <-- VIDEO LINK ADDED
+    businessModel: "Zalando's strategy is to create a holistic 'Algorithmic Fashion Companion' that uses multiple AI capabilities to assist customers across their entire journey. The model goes beyond simple recommendations to provide curated styling, personalized fit advice, and engaging, trend-driven content, making the shopping experience deeply personal and sticky.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'AI-Powered Curation & Styling',
+        description: 'An AI fashion assistant provides curated suggestions and entire outfit recommendations based on a customer\'s free-form queries and preferences.'
+    }, {
+        icon: 'feedback',
+        title: 'Personalized Size & Fit Prediction',
+        description: 'The system uses data on purchase history, brand affinities, and, crucially, past returns to predict the best size for a customer, aiming to reduce return rates.'
+    }, {
+        icon: 'human',
+        title: 'Localized & Multilingual Support',
+        description: 'The AI is trained to handle multiple languages and dialects, tracking city-based trends to provide more culturally and geographically relevant style advice.'
+    }, {
+        icon: 'data',
+        title: 'Trend-Responsive Content',
+        description: 'Zalando uses Generative AI to create marketing imagery in days instead of weeks, allowing it to rapidly build campaigns around fast-moving micro-trends.'
+    }],
+    quantifiedImpact: [{
+        metric: 'Algorithmic Fashion Companion',
+        description: 'The AI acts as a personal stylist, offering outfit suggestions and complementary accessories, not just single products.'
+    }, {
+        metric: 'Reduced Returns via Sizing',
+        description: 'A core goal of the AI is to leverage customer data to provide better size recommendations, directly tackling a major cost driver in apparel e-commerce.'
+    }, {
+        metric: 'Hyper-Responsive Marketing',
+        description: 'Generative AI reduces content creation time from 6-8 weeks to just 3-4 days, enabling immediate campaigns for emerging trends.'
+    }, {
+        metric: 'Localized Engagement',
+        description: 'By tracking city-level trends and understanding local nuances, the AI can offer far more relevant and engaging recommendations.'
+    }],
+    strategicTakeaway: "Zalando is building a comprehensive AI 'companion' that combines multiple capabilities (personalization, size prediction, generative content) to create a deeply integrated and sticky customer experience. For Penti, this shows that the future isn't about a single AI feature, but about weaving multiple AI tools together to assist the customer at every single touchpoint, from inspiration and discovery to post-purchase satisfaction.",
+    relatedConcepts: [{
+        id: 'data-feedback-loop',
+        name: 'The Data Feedback Loop'
+    }, {
+        id: 'multimodal-ai',
+        name: 'Multimodal AI'
+    }]
+}, {
             id: 'walmart-semantic-search',
             company: 'Walmart',
             concept: 'AI-Powered Semantic Search & Product Attribution',
