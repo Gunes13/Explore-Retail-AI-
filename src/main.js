@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="space-y-4">${quantifiedImpact.map(item => `
                                 <div>
                                     <p class="text-3xl font-bold text-fuchsia-600">${item.metric}</p>
-                                    <p class="text-sm text-zinc-600">${item.description}</p>
+                                    <p class="text-sm text-zinc-600">${item.description} ${item.videoUrl ? `<a href="${item.videoUrl}" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-xs font-semibold block mt-1">► Watch Impact Video</a>` : ''}</p>                                                                                                         
                                 </div>`).join('')}
                             </div>
                         </div>
