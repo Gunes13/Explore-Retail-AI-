@@ -485,6 +485,48 @@ export const useCaseData = {
                 name: '3DVD & Digital Twins'
             }]
         }, {
+    id: 'walmart-ai-apparel',
+    company: 'Walmart',
+    concept: 'AI-Powered "Trend-to-Product" Apparel',
+    logo: 'https://logo.clearbit.com/walmart.com',
+    image: '/images/walmart-apparel.png', // You would need to add a relevant image here
+    imperativeLink: 'Transformation 2: Intelligent Operations',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "Walmart's 'Trend-to-Product' initiative uses proprietary AI and Generative AI tools to dramatically shorten the apparel design and production cycle. The business model is to leverage real-time trend analysis to create and launch affordable, on-trend fashion faster, directly competing with the speed of fast-fashion players while maintaining Walmart's focus on value.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'AI Trend Analysis',
+        description: 'The system analyzes global data, including internet trends and influencer styles, to identify emerging fashion trends in real-time.'
+    }, {
+        icon: 'human',
+        title: 'AI-Augmented Design',
+        description: 'Designers use the AI tools to condense the creative process, generating new designs based on the identified trends in minutes instead of weeks.'
+    }, {
+        icon: 'data',
+        title: 'Rapid Product Launch',
+        description: 'The entire design process is condensed to about an hour, enabling a much faster path to manufacturing and product launch.'
+    }, {
+        icon: 'feedback',
+        title: 'Accelerated Speed-to-Market',
+        description: 'This AI-driven process allows new, on-trend apparel to get from concept to store shelves in just six to eight weeks.'
+    }],
+    quantifiedImpact: [{
+        metric: '6-8 Weeks',
+        description: 'Time from trend identification to product availability on shelves, a significant acceleration.'
+    }, {
+        metric: '18 Weeks Faster',
+        description: 'Shortens the traditional apparel production timeline by as much as 18 weeks.'
+    }, {
+        metric: 'Minutes vs. Weeks',
+        description: 'The AI tools reduce the time spent on creating new designs from several weeks down to just minutes.'
+    }],
+    strategicTakeaway: "Walmart's AI apparel initiative demonstrates a powerful strategy for established retailers to compete on speed and relevance. By integrating AI at the very beginning of the product lifecycle—design and trend analysis—they can de-risk new collections and better meet immediate consumer demand. For Penti, this highlights a critical opportunity to use AI not just for optimizing existing operations, but for fundamentally accelerating the creative and go-to-market process.",
+    relatedConcepts: [{
+        id: 'predictive-supply-chain',
+        name: 'Predictive Supply Chain & Demand Forecasting'
+    }]
+}, {
             id: 'walmart-replenishment',
             company: 'Walmart',
             concept: 'Automated AI Replenishment System',
