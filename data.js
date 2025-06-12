@@ -489,7 +489,7 @@ export const useCaseData = {
     company: 'Walmart',
     concept: 'AI-Powered "Trend-to-Product" Apparel',
     logo: 'https://logo.clearbit.com/walmart.com',
-    image: '/images/walmart-apparel.png', // You would need to add a relevant image here
+    image: '/images/walmart-apparel.png', 
     imperativeLink: 'Transformation 2: Intelligent Operations',
     isCustom: true,
     youtubeUrl: null,
