@@ -1222,7 +1222,6 @@ export const useCaseData = {
     }, {
         metric: 'Personal Photo VTO',
         description: 'Introduces the ability for users to upload their own photo for a hyper-realistic virtual try-on experience, a significant step beyond using generic models.',
-        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Try_it_on_Title_page_5.mp4'
     }, {
         metric: 'Gemini Integration',
         description: 'Directly integrates the advanced conversational and reasoning capabilities of Gemini into the shopping journey.',
@@ -1230,7 +1229,7 @@ export const useCaseData = {
     }, {
         metric: 'Custom GenAI Model',
         description: 'Utilizes a custom-built generative AI model specifically for fashion to accurately simulate fabric drape and fit.',
-        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Copy_of_AI_Mode_Travel_Bag_1.mp4' // <-- VIDEO LINK ADDED
+        videoUrl: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Try_it_on_Women_s_1.mp4' // <-- VIDEO LINK ADDED
     }],
     strategicTakeaway: "Google's move demonstrates a push to own the 'top of the funnel' in retail by making product discovery more intuitive and visual. By integrating powerful generative AI for both conversation (AI Mode) and visualization (VTO), Google aims to create a 'data moat' based on user interaction, making its shopping ecosystem the most helpful starting point and therefore indispensable for retailers to participate in."
 }, {
