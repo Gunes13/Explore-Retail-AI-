@@ -1587,7 +1587,7 @@ export const useCaseData = {
             company: 'Pepesto',
             concept: 'The B2AI Grocery Shopping API',
             logo: 'https://pepesto.com/images/logo.svg',
-            image: '/images/pepesco.png',
+            image: '/images/pepesto.png',
             imperativeLink: 'Imperative 3: The Emergence of "Machine Customers"',
             isCustom: true,
             youtubeUrl: 'https://www.youtube.com/watch?v=kE9ZQT5JQ5M',
