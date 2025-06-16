@@ -1189,11 +1189,18 @@ export const useCaseData = {
         metric: 'End-to-End Solution',
         description: 'Transforms the platform from a passive marketplace to an intelligent ecosystem with features for market research, supplier negotiation, and lead generation.'
     }],
-    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making the process faster, more data-driven, and ultimately more competitive.",
+    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making it faster, more data-driven, and more efficient.",
     relatedConcepts: [{
         id: 'agentic-ai-machine-customer',
         name: 'Agentic AI & The Machine Customer'
     }, {
+        id: 'multimodal-ai',
+        name: 'Multimodal AI'
+    }, {
+        id: 'agentic-automation-alibaba', // <-- NEW LINK ADDED
+        name: 'Deep Dive: Agentic Automation' // <-- NEW LINK ADDED
+    }]
+}, {
         id: 'multimodal-ai',
         name: 'Multimodal AI'
     }]
@@ -1947,6 +1954,48 @@ export const useCaseData = {
             strategicTakeaway: "The rise of the Machine Customer is a seismic shift for retail. For Penti, this means thinking beyond human-centric marketing and e-commerce design. The future requires building a 'B2AI' strategy: ensuring product data is structured and detailed for AI consumption and that digital channels are API-accessible. The brands that become the most reliable and efficient partners for these AI agents will win the loyalty of their users.",
             relatedConcepts: []
         }, {
+    id: 'agentic-automation-alibaba',
+    company: 'Key Concept',
+    concept: 'Agentic Automation: Accio Agent & Accio Page',
+    logo: '',
+    image: '/images/agentic-automation.png', // You would need to add a relevant image here
+    imperativeLink: 'Imperative 3: The Rise of AI Agents',
+    isCustom: true,
+    businessModel: "Agentic automation leverages advanced AI, such as Alibaba’s Qwen and Tongyi Qianwen large language models, to execute multi-step processes autonomously, adapt to user needs, and optimize outcomes with minimal human intervention. In Alibaba’s B2B ecosystem, Accio Agent and Accio Page transform procurement by automating critical tasks like lead generation, supplier negotiations, and storefront management.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'Lead Generation & Vetting (Accio Agent)',
+        description: 'The AI agent identifies and vets potential suppliers by analyzing Alibaba’s vast database based on user-defined criteria like budget, certifications, and delivery timelines.'
+    }, {
+        icon: 'human',
+        title: 'Automated Negotiation (Accio Agent)',
+        description: 'Using conversational AI, the agent conducts automated, multilingual negotiations with suppliers to optimize for cost, quality, or speed based on user preferences.'
+    }, {
+        icon: 'data',
+        title: 'AI Storefront Creation (Accio Page)',
+        description: 'Enables suppliers to generate professional, multimedia-rich digital storefronts that are automatically translated and optimized for global markets.'
+    }, {
+        icon: 'feedback',
+        title: 'Dynamic Storefront Management (Accio Page)',
+        description: 'The storefronts are updated in real-time based on inventory levels, buyer demand, and search trends to increase discoverability and sales.'
+    }],
+    quantifiedImpact: [{
+        metric: 'Up to 30% Time Saved',
+        description: 'Reduces time spent on procurement and storefront management, freeing up SMEs to focus on their core business.'
+    }, {
+        metric: '12-15% Cost Reduction',
+        description: 'Lowers operational overhead for SMEs through automated sourcing, negotiation, and marketing.'
+    }, {
+        metric: 'End-to-End Automation',
+        description: 'Transforms the platform from a passive marketplace into an intelligent ecosystem that handles sourcing, negotiation, and sales.'
+    }, {
+        metric: 'Enhanced Scalability',
+        description: 'Allows Alibaba to serve millions of SMEs globally, demonstrated by Accio reaching 1 million users by March 2025.'
+    }],
+    strategicTakeaway: "Accio Agent and Accio Page exemplify a comprehensive agentic automation strategy. They show how a suite of integrated AI tools can automate both sides of the B2B equation—buying (sourcing) and selling (storefronts). For Penti, this highlights the potential to build or leverage AI tools that streamline its own B2B operations, from managing supplier relationships to optimizing how its products are presented in wholesale channels.",
+    relatedConcepts: []
+}
+            {
             id: 'ai-customer-service',
             company: 'Key Concept',
             concept: 'AI-Powered Customer Service',
