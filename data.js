@@ -1954,7 +1954,6 @@ export const useCaseData = {
     company: 'Key Concept',
     concept: 'Agentic Automation: Accio Agent & Accio Page',
     logo: '',
-    image: '/images/agentic-automation.png', // You would need to add a relevant image here
     imperativeLink: 'Imperative 3: The Rise of AI Agents',
     isCustom: true,
     businessModel: "Agentic automation leverages advanced AI, such as Alibaba’s Qwen and Tongyi Qianwen large language models, to execute multi-step processes autonomously, adapt to user needs, and optimize outcomes with minimal human intervention. In Alibaba’s B2B ecosystem, Accio Agent and Accio Page transform procurement by automating critical tasks like lead generation, supplier negotiations, and storefront management.",
