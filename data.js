@@ -1150,6 +1150,54 @@ export const useCaseData = {
                 name: 'Multimodal AI'
             }]
         }, {
+    id: 'alibaba-accio',
+    company: 'Alibaba',
+    concept: 'Accio: AI-Powered B2B Sourcing Engine',
+    logo: 'https://logo.clearbit.com/alibaba.com',
+    image: '/images/alibaba-accio.png', // You would need to add a relevant image here
+    imperativeLink: 'Transformation 4: Generative & Agentic AI',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "Accio represents a pivotal shift in Alibaba’s business model, moving from a traditional e-commerce platform to an AI-driven, intelligent trade ecosystem. By automating sourcing, providing actionable market insights, and enhancing user experience, Accio strengthens Alibaba’s core B2B marketplace and extends its value proposition to small and medium-sized enterprises (SMEs) globally.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'Conversational Sourcing Request',
+        description: 'Users input text or image prompts in natural language, like “eco-friendly pet collars with GPS tracking,” to instantly generate tailored supplier and product lists.'
+    }, {
+        icon: 'data',
+        title: 'AI-Powered Search & Refinement',
+        description: 'The AI uses multilingual NLP to refine searches with industry-specific parameters, reducing sourcing time by up to 30%.'
+    }, {
+        icon: 'feedback',
+        title: 'Automated Market Research',
+        description: 'A feature introduced in March 2025 generates real-time reports on consumer demand, pricing trends, and competitive landscapes to reduce market entry time from months to minutes.'
+    }, {
+        icon: 'human',
+        title: 'Agentic Automation',
+        description: 'The "Accio Agent" automates lead generation and supplier negotiations, while "Accio Page" creates AI-powered digital storefronts to streamline the entire procurement process.'
+    }],
+    quantifiedImpact: [{
+        metric: '40% Increase',
+        description: 'in purchase intent reported by Alibaba.com\'s President compared to traditional search, indicating higher conversion rates.'
+    }, {
+        metric: 'Up to 30% Reduction',
+        description: 'in sourcing time for SMEs by leveraging AI-driven conversational search.'
+    }, {
+        metric: '1 Million+ Users',
+        description: 'The number of SMEs that adopted the Accio tool by March 2025, reflecting rapid market adoption.'
+    }, {
+        metric: 'End-to-End Solution',
+        description: 'Transforms the platform from a passive marketplace to an intelligent ecosystem with features for market research, supplier negotiation, and lead generation.'
+    }],
+    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making the process faster, more data-driven, and ultimately more competitive.",
+    relatedConcepts: [{
+        id: 'agentic-ai-machine-customer',
+        name: 'Agentic AI & The Machine Customer'
+    }, {
+        id: 'multimodal-ai',
+        name: 'Multimodal AI'
+    }]
+}, {
             id: 'mercer-ai-design',
             company: 'Mercer (formerly CALA)',
             concept: 'AI-Powered Fashion Supply Chain Platform',
