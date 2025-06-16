@@ -1991,7 +1991,7 @@ export const useCaseData = {
     }],
     strategicTakeaway: "Accio Agent and Accio Page exemplify a comprehensive agentic automation strategy. They show how a suite of integrated AI tools can automate both sides of the B2B equation—buying (sourcing) and selling (storefronts). For Penti, this highlights the potential to build or leverage AI tools that streamline its own B2B operations, from managing supplier relationships to optimizing how its products are presented in wholesale channels.",
     relatedConcepts: []
-}
+},
             {
             id: 'ai-customer-service',
             company: 'Key Concept',
