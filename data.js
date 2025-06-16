@@ -1102,107 +1102,104 @@ export const useCaseData = {
         }]
     },
     'generative-agentic-ai': {
-        name: 'Generative & Agentic AI',
-        description: 'Generative AI creates novel content, while Agentic AI performs autonomous tasks, opening new frontiers in design, marketing, and automation.',
-        cases: [{
-            id: 'puma-gen-ai-imagery',
-            company: 'Puma',
-            concept: 'AI-Powered Content Localization',
-            logo: 'https://logo.clearbit.com/puma.com',
-            image: '/images/puma.png',
-            imperativeLink: 'Transformation 4: Generative & Agentic AI',
-            isCustom: true,
-            youtubeUrl: 'https://www.youtube.com/watch?v=XJpOkh_jXqY',
-            businessModel: "Puma uses Google's Generative AI platform (Imagen) to empower its global content team to create localized and customized product imagery at scale. This strategy replaces the need for costly and time-consuming regional photoshoots, allowing a central team to dynamically generate marketing assets that resonate with local markets.",
-            processSteps: [{
-                icon: 'data',
-                title: 'Input Standard Product Photo',
-                description: 'The creative process starts with a high-quality product image on a neutral, standard background.'
-            }, {
-                icon: 'ai',
-                title: 'Generate Dynamic Backgrounds',
-                description: 'Using Google Cloud Imagen, the team uses text prompts to generate new, contextually relevant backgrounds, such as placing a running shoe on a city street or a trail.'
-            }, {
-                icon: 'human',
-                title: 'Localize Imagery for Markets',
-                description: 'The AI can generate multiple versions of an image tailored for different markets, incorporating local landmarks, cultural aesthetics, or specific campaign themes.'
-            }, {
-                icon: 'feedback',
-                title: 'Deploy Relevant Content',
-                description: 'The localized images are deployed across Puma’s website and digital channels, creating a more engaging and personally relevant shopping experience for customers in each region.'
-            }],
-            quantifiedImpact: [{
-                metric: 'Time & Cost Savings',
-                description: 'Dramatically reduces the time and cost associated with organizing separate photoshoots for different global markets.'
-            }, {
-                metric: 'Enhanced Local Relevance',
-                description: 'Ensures that product imagery and marketing campaigns feel native and relevant to diverse local cultures and customer preferences.'
-            }, {
-                metric: 'Increased Creative Agility',
-                description: 'Allows the global content team to create a high volume of varied and dynamic marketing assets on demand without logistical constraints.'
-            }, {
-                metric: 'Improved Digital Experience',
-                description: 'Creates a more visually engaging and personalized shopping journey for customers, tailored to their specific location and context.'
-            }],
-            strategicTakeaway: "Puma's use of Generative AI is a masterclass in scaling marketing localization. It democratizes content creation, allowing a central team to serve global markets with relevant imagery without the massive overhead of regional photoshoots. For Penti, this demonstrates a clear path to making its digital presence more engaging in international markets efficiently, ensuring brand consistency while respecting local culture.",
-            relatedConcepts: [{
-                id: 'multimodal-ai',
-                name: 'Multimodal AI'
-            }]
+    name: 'Generative & Agentic AI',
+    description: 'Generative AI creates novel content, while Agentic AI performs autonomous tasks, opening new frontiers in design, marketing, and automation.',
+    cases: [{
+        id: 'puma-gen-ai-imagery',
+        company: 'Puma',
+        concept: 'AI-Powered Content Localization',
+        logo: 'https://logo.clearbit.com/puma.com',
+        image: '/images/puma.png',
+        imperativeLink: 'Transformation 4: Generative & Agentic AI',
+        isCustom: true,
+        youtubeUrl: 'https://www.youtube.com/watch?v=XJpOkh_jXqY',
+        businessModel: "Puma uses Google's Generative AI platform (Imagen) to empower its global content team to create localized and customized product imagery at scale. This strategy replaces the need for costly and time-consuming regional photoshoots, allowing a central team to dynamically generate marketing assets that resonate with local markets.",
+        processSteps: [{
+            icon: 'data',
+            title: 'Input Standard Product Photo',
+            description: 'The creative process starts with a high-quality product image on a neutral, standard background.'
         }, {
-    id: 'alibaba-accio',
-    company: 'Alibaba',
-    concept: 'Accio: AI-Powered B2B Sourcing Engine',
-    logo: 'https://logo.clearbit.com/alibaba.com',
-    image: '/images/alibaba-accio.png', // You would need to add a relevant image here
-    imperativeLink: 'Transformation 4: Generative & Agentic AI',
-    isCustom: true,
-    youtubeUrl: null,
-    businessModel: "Accio represents a pivotal shift in Alibaba’s business model, moving from a traditional e-commerce platform to an AI-driven, intelligent trade ecosystem. By automating sourcing, providing actionable market insights, and enhancing user experience, Accio strengthens Alibaba’s core B2B marketplace and extends its value proposition to small and medium-sized enterprises (SMEs) globally.",
-    processSteps: [{
-        icon: 'ai',
-        title: 'Conversational Sourcing Request',
-        description: 'Users input text or image prompts in natural language, like “eco-friendly pet collars with GPS tracking,” to instantly generate tailored supplier and product lists.'
+            icon: 'ai',
+            title: 'Generate Dynamic Backgrounds',
+            description: 'Using Google Cloud Imagen, the team uses text prompts to generate new, contextually relevant backgrounds, such as placing a running shoe on a city street or a trail.'
+        }, {
+            icon: 'human',
+            title: 'Localize Imagery for Markets',
+            description: 'The AI can generate multiple versions of an image tailored for different markets, incorporating local landmarks, cultural aesthetics, or specific campaign themes.'
+        }, {
+            icon: 'feedback',
+            title: 'Deploy Relevant Content',
+            description: 'The localized images are deployed across Puma’s website and digital channels, creating a more engaging and personally relevant shopping experience for customers in each region.'
+        }],
+        quantifiedImpact: [{
+            metric: 'Time & Cost Savings',
+            description: 'Dramatically reduces the time and cost associated with organizing separate photoshoots for different global markets.'
+        }, {
+            metric: 'Enhanced Local Relevance',
+            description: 'Ensures that product imagery and marketing campaigns feel native and relevant to diverse local cultures and customer preferences.'
+        }, {
+            metric: 'Increased Creative Agility',
+            description: 'Allows the global content team to create a high volume of varied and dynamic marketing assets on demand without logistical constraints.'
+        }, {
+            metric: 'Improved Digital Experience',
+            description: 'Creates a more visually engaging and personalized shopping journey for customers, tailored to their specific location and context.'
+        }],
+        strategicTakeaway: "Puma's use of Generative AI is a masterclass in scaling marketing localization. It democratizes content creation, allowing a central team to serve global markets with relevant imagery without the massive overhead of regional photoshoots. For Penti, this demonstrates a clear path to making its digital presence more engaging in international markets efficiently, ensuring brand consistency while respecting local culture.",
+        relatedConcepts: [{
+            id: 'multimodal-ai',
+            name: 'Multimodal AI'
+        }]
     }, {
-        icon: 'data',
-        title: 'AI-Powered Search & Refinement',
-        description: 'The AI uses multilingual NLP to refine searches with industry-specific parameters, reducing sourcing time by up to 30%.'
-    }, {
-        icon: 'feedback',
-        title: 'Automated Market Research',
-        description: 'A feature introduced in March 2025 generates real-time reports on consumer demand, pricing trends, and competitive landscapes to reduce market entry time from months to minutes.'
-    }, {
-        icon: 'human',
-        title: 'Agentic Automation',
-        description: 'The "Accio Agent" automates lead generation and supplier negotiations, while "Accio Page" creates AI-powered digital storefronts to streamline the entire procurement process.'
-    }],
-    quantifiedImpact: [{
-        metric: '40% Increase',
-        description: 'in purchase intent reported by Alibaba.com\'s President compared to traditional search, indicating higher conversion rates.'
-    }, {
-        metric: 'Up to 30% Reduction',
-        description: 'in sourcing time for SMEs by leveraging AI-driven conversational search.'
-    }, {
-        metric: '1 Million+ Users',
-        description: 'The number of SMEs that adopted the Accio tool by March 2025, reflecting rapid market adoption.'
-    }, {
-        metric: 'End-to-End Solution',
-        description: 'Transforms the platform from a passive marketplace to an intelligent ecosystem with features for market research, supplier negotiation, and lead generation.'
-    }],
-    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making it faster, more data-driven, and more efficient.",
-    relatedConcepts: [{
-        id: 'agentic-ai-machine-customer',
-        name: 'Agentic AI & The Machine Customer'
-    }, {
-        id: 'multimodal-ai',
-        name: 'Multimodal AI'
-    }, {
-        id: 'agentic-automation-alibaba', // <-- NEW LINK ADDED
-        name: 'Deep Dive: Agentic Automation' // <-- NEW LINK ADDED
-    }]
-}, {
-        id: 'multimodal-ai',
-        name: 'Multimodal AI'
+        id: 'alibaba-accio',
+        company: 'Alibaba',
+        concept: 'Accio: AI-Powered B2B Sourcing Engine',
+        logo: 'https://logo.clearbit.com/alibaba.com',
+        image: '/images/alibaba-accio.png', // You would need to add a relevant image here
+        imperativeLink: 'Transformation 4: Generative & Agentic AI',
+        isCustom: true,
+        youtubeUrl: null,
+        businessModel: "Accio represents a pivotal shift in Alibaba’s business model, moving from a traditional e-commerce platform to an AI-driven, intelligent trade ecosystem. By automating sourcing, providing actionable market insights, and enhancing user experience, Accio strengthens Alibaba’s core B2B marketplace and extends its value proposition to small and medium-sized enterprises (SMEs) globally.",
+        processSteps: [{
+            icon: 'ai',
+            title: 'Conversational Sourcing Request',
+            description: 'Users input text or image prompts in natural language, like “eco-friendly pet collars with GPS tracking,” to instantly generate tailored supplier and product lists.'
+        }, {
+            icon: 'data',
+            title: 'AI-Powered Search & Refinement',
+            description: 'The AI uses multilingual NLP to refine searches with industry-specific parameters, reducing sourcing time by up to 30%.'
+        }, {
+            icon: 'feedback',
+            title: 'Automated Market Research',
+            description: 'A feature introduced in March 2025 generates real-time reports on consumer demand, pricing trends, and competitive landscapes to reduce market entry time from months to minutes.'
+        }, {
+            icon: 'human',
+            title: 'Agentic Automation',
+            description: 'The "Accio Agent" automates lead generation and supplier negotiations, while "Accio Page" creates AI-powered digital storefronts to streamline the entire procurement process.'
+        }],
+        quantifiedImpact: [{
+            metric: '40% Increase',
+            description: 'in purchase intent reported by Alibaba.com\'s President compared to traditional search, indicating higher conversion rates.'
+        }, {
+            metric: 'Up to 30% Reduction',
+            description: 'in sourcing time for SMEs by leveraging AI-driven conversational search.'
+        }, {
+            metric: '1 Million+ Users',
+            description: 'The number of SMEs that adopted the Accio tool by March 2025, reflecting rapid market adoption.'
+        }, {
+            metric: 'End-to-End Solution',
+            description: 'Transforms the platform from a passive marketplace to an intelligent ecosystem with features for market research, supplier negotiation, and lead generation.'
+        }],
+        strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making it faster, more data-driven, and more efficient.",
+        relatedConcepts: [{
+            id: 'agentic-ai-machine-customer',
+            name: 'Agentic AI & The Machine Customer'
+        }, {
+            id: 'multimodal-ai',
+            name: 'Multimodal AI'
+        }, {
+            id: 'agentic-automation-alibaba',
+            name: 'Deep Dive: Agentic Automation'
+        }]
     }]
 }, {
             id: 'mercer-ai-design',
