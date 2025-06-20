@@ -1819,6 +1819,56 @@ export const useCaseData = {
                 name: 'Agentic AI & The Machine Customer'
             }]
         }, {
+    id: 'ai21-maestro',
+    company: 'AI21 Labs',
+    concept: 'Maestro: Creating Custom AI Models',
+    logo: 'https://logo.clearbit.com/ai21.com',
+    image: '/images/ai21-maestro.png', // You will need to add a relevant image here
+    imperativeLink: 'Imperative 5: Building Agile Foundations for AI Success',
+    isCustom: true,
+    youtubeUrl: 'https://www.ai21.com/maestro/', // <-- DEMO LINK ADDED
+    businessModel: "Platforms like AI21's Maestro empower businesses to move beyond using generic AI and instead create their own specialized models. The business model is to provide a platform that allows a company to fine-tune a powerful foundation model (like Jamba) on its own private data, turning that data into a unique and defensible proprietary AI asset without needing a large team of AI scientists.",
+    processSteps: [{
+        icon: 'ai',
+        title: 'Select Foundation Model',
+        description: 'A company chooses a powerful, general-purpose foundation model as the starting point for their custom AI.'
+    }, {
+        icon: 'data',
+        title: 'Upload Private Company Data',
+        description: 'The business securely uploads its own proprietary data, such as product catalogs, customer service transcripts, or internal supply chain documents.'
+    }, {
+        icon: 'human',
+        title: 'Fine-Tune the Custom Model',
+        description: 'The platform manages the complex fine-tuning process, creating a new, specialized model that deeply understands the company’s specific products, customers, and business language.'
+    }, {
+        icon: 'feedback',
+        title: 'Deploy Custom AI Application',
+        description: 'The newly-trained custom model is then deployed via an API to power highly accurate and context-aware business applications, like an internal expert or a customer-facing assistant.'
+    }],
+    quantifiedImpact: [{
+        metric: 'Proprietary AI Asset',
+        description: 'Allows a company to turn its private data into a unique, defensible AI model that competitors cannot replicate.'
+    }, {
+        metric: 'Improved Accuracy & Relevance',
+        description: 'Fine-tuned models provide far more accurate and contextually relevant responses for specific business tasks compared to generic models.'
+    }, {
+        metric: 'Reduced Errors & Hallucinations',
+        description: 'Training on company-specific data grounds the model in reality, significantly reducing the risk of incorrect or fabricated answers.'
+    }, {
+        metric: 'Simplified Custom AI Development',
+        description: 'Provides a platform-based solution to create custom models without requiring deep in-house AI research and development expertise.'
+    }],
+    strategicTakeaway: "The key takeaway is the strategic shift from merely *using* generic AI to *creating* custom, specialized AI. Platforms like Maestro allow a company like Penti to build a powerful competitive moat by training models on its unique data—such as Penti’s specific product details, supply chain information, and customer interactions. This enables the creation of highly effective, proprietary tools that truly understand the nuances of Penti's business, something a generic model cannot achieve.",
+    relatedConcepts: [{
+        id: 'mach-architecture',
+        name: 'MACH Architecture'
+    }, {
+        id: 'data-feedback-loop',
+        name: 'The Data Feedback Loop'
+    }]
+},
+                
+                {
             id: "msft-azure",
             company: "Microsoft Azure",
             concept: "Agentic AI Solutions for Retail",
