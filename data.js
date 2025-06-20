@@ -77,7 +77,57 @@ export const useCaseData = {
         id: 'multimodal-ai',
         name: 'Multimodal AI'
     }]
-}, {
+}, 
+{
+    id: 'amazon-ai-fashion',
+    company: 'Amazon',
+    concept: 'AI for Style & Fit Experience',
+    logo: 'https://logo.clearbit.com/amazon.com',
+    image: '/images/amazon-fashion.png', // You will need to add a relevant image here
+    imperativeLink: 'Transformation 1: Hyper-Personalization at Scale',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "Amazon's strategy is to use a suite of integrated AI tools to solve the two biggest challenges in online apparel shopping: fit uncertainty and style discovery. By building customer confidence at every step, Amazon aims to reduce costly returns, increase conversion rates, and become a more trusted destination for fashion.",
+    processSteps: [{
+        icon: 'data',
+        title: 'AI-Summarized Fit Reviews',
+        description: 'An AI model analyzes thousands of customer reviews to provide a concise summary of common fit feedback, such as "runs large" or "material is stretchy," helping users choose the right size.'
+    }, {
+        icon: 'ai',
+        title: 'Generative AI Style Inspiration',
+        description: 'A virtual stylist tool uses generative AI to show how a single item can be worn in multiple, complete outfits, solving the "how do I wear this?" problem and inspiring purchases.'
+    }, {
+        icon: 'human',
+        title: 'Virtual Try-On (VTO)',
+        description: 'Using AR, customers can visualize how a garment will look on a model with a similar body type or on their own photo, creating a more realistic and personalized preview.'
+    }, {
+        icon: 'feedback',
+        title: 'Confident Purchase Decision',
+        description: 'By addressing fit and style uncertainty upfront, the combined AI tools give customers the confidence to complete their purchase with a lower chance of returning the item.'
+    }],
+    quantifiedImpact: [{
+        metric: 'Reduced Fit-Related Returns',
+        description: 'Helps customers choose the correct size on the first try by summarizing thousands of reviews and offering virtual try-on.'
+    }, {
+        metric: 'Increased Purchase Confidence',
+        description: 'Directly tackles the two biggest blockers to buying apparel online: uncertainty about fit and how to style an item.'
+    }, {
+        metric: 'Higher Average Order Value',
+        description: 'Generative AI style suggestions inspire customers to purchase complementary items to complete a look.'
+    }, {
+        metric: 'Enhanced Customer Experience',
+        description: 'Creates a more helpful, personalized, and interactive shopping journey that bridges the gap between the digital and physical dressing room.'
+    }],
+    strategicTakeaway: "Amazon's multi-pronged approach shows that solving the online apparel challenge requires more than a single feature; it demands a suite of integrated AI tools that build customer confidence. For Penti, this highlights the opportunity to identify key points of friction in its own customer journey (e.g., sizing for swimwear, styling new fashion items) and deploy targeted AI solutions to address them, thereby reducing returns and increasing loyalty.",
+    relatedConcepts: [{
+        id: 'multimodal-ai',
+        name: 'Multimodal AI'
+    }, {
+        id: 'data-feedback-loop',
+        name: 'The Data Feedback Loop'
+    }]
+},              
+            {
             id: 'walmart-semantic-search',
             company: 'Walmart',
             concept: 'AI-Powered Semantic Search & Product Attribution',
