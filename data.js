@@ -618,7 +618,56 @@ export const useCaseData = {
                 id: 'predictive-supply-chain',
                 name: 'Predictive Supply Chain & Demand Forecasting'
             }]
-        }, {
+        },    {
+    id: 'walmart-foundational-llm',
+    company: 'Walmart',
+    concept: 'MyAssistant: In-House Foundational LLM',
+    logo: 'https://logo.clearbit.com/walmart.com',
+    image: '/images/walmart-myassistant.png', // You would need to add a relevant image here
+    imperativeLink: 'Imperative 5: Building Agile Foundations for AI Success',
+    isCustom: true,
+    youtubeUrl: null,
+    businessModel: "Walmart's strategy is to build its own proprietary large language models (LLMs) to leverage its massive, unique dataset—spanning decades of retail operations—in a secure environment. By creating a foundational AI platform in-house, Walmart can develop highly customized tools that improve operational efficiency for employees and deliver hyper-personalized experiences for customers, creating a significant competitive advantage.",
+    processSteps: [{
+        icon: 'data',
+        title: 'Train on Proprietary Data',
+        description: 'Walmart trains its own LLMs, including a model named Wallaby, on its vast internal data, including merchandising, supply chain, and customer purchasing history.'
+    }, {
+        icon: 'human',
+        title: 'Empower Corporate Associates',
+        description: 'Deploys an internal generative AI tool, "MyAssistant," to its U.S. and international corporate teams to summarize documents and accelerate creative work, boosting productivity.'
+    }, {
+        icon: 'ai',
+        title: 'Develop Customer-Facing AI',
+        description: 'Uses its foundational models to power customer-facing generative AI features, including advanced search and conversational shopping assistants.'
+    }, {
+        icon: 'feedback',
+        title: 'Ensure Data Security & Speed',
+        description: 'By keeping its data and models in-house within its own cloud infrastructure, Walmart ensures data security and can deliver AI experiences with greater speed and relevance.'
+    }],
+    quantifiedImpact: [{
+        metric: 'Proprietary LLMs',
+        description: 'Walmart developed its own family of LLMs to create a custom AI foundation tailored to its specific retail data and needs.'
+    }, {
+        metric: 'MyAssistant for Employees',
+        description: 'A generative AI assistant deployed to over 50,000 corporate employees to improve productivity and streamline tasks.'
+    }, {
+        metric: 'Hyper-Personalization',
+        description: 'The in-house models are designed to power next-generation personalization for shoppers, going beyond generic recommendations.'
+    }, {
+        metric: 'Enhanced Data Security',
+        description: 'Building its own models allows Walmart to leverage its most valuable asset—its data—without sharing it with third-party AI vendors.'
+    }],
+    strategicTakeaway: "Walmart's decision to build its own foundational LLMs is a major strategic move. It shows a commitment to leveraging its unique data as a core competitive advantage. For Penti, this highlights the long-term strategic choice between using off-the-shelf AI tools versus investing in proprietary models trained on its own customer and operational data to create truly unique and defensible AI capabilities.",
+    relatedConcepts: [{
+        id: 'mach-architecture',
+        name: 'MACH Architecture'
+    }, {
+        id: 'data-feedback-loop',
+        name: 'The Data Feedback Loop'
+    }]
+},
+    {
             id: 'shein-agile-pricing',
             company: 'SHEIN',
             concept: 'Real-Time Agile Pricing & Production',
