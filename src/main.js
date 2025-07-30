@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                      <div class="mt-8 pt-6 border-t border-zinc-200">
-                         <h4 class="font-bold text-lg text-zinc-800 mb-2">Strategic Takeaway for Penti</h4>
+                         <h4 class="font-bold text-lg text-zinc-800 mb-2">Key Insights</h4>
                          <p class="text-zinc-600 italic">"${strategicTakeaway}"</p>
                      </div>
                      ${relatedConcepts.length > 0 ? `
