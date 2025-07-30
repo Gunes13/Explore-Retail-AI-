@@ -1339,7 +1339,7 @@ export const useCaseData = {
                 metric: '$275 Billion',
                 description: 'Projected profit increase for the fashion industry from Generative AI, according to McKinsey.'
             }],
-            strategicTakeaway: "Mercer's platform shows that the true power of Generative AI is not just creating images, but integrating that creation process into the physical supply chain. It transforms a designer's prompt into a producible good. For Penti, this highlights a future where design and production are no longer sequential but deeply intertwined, enabling faster speed-to-market and more data-driven, experimental collections."
+            strategicTakeaway: "Mercer's platform shows that the true power of Generative AI is not just creating images, but integrating that creation process into the physical supply chain. It transforms a designer's prompt into a producible good. This highlights a future where design and production are no longer sequential but deeply intertwined, enabling faster speed-to-market and more data-driven, experimental collections."
         }, {
             id: 'walmart-agentic-ai',
             company: 'Walmart',
@@ -1510,7 +1510,7 @@ export const useCaseData = {
                 metric: '85% Full-Price Sell-Through',
                 description: "This industry-leading metric is supported by Zara's tech-driven efficiency and ability to align inventory with real-time demand."
             }],
-            strategicTakeaway: "Zara provides a masterclass in using a single foundational technology (RFID) to enable a holistic ecosystem of in-store innovations. The strategy focuses relentlessly on reducing customer friction and improving efficiency. For Penti, this demonstrates the immense value of investing in a core technology that can be leveraged across numerous touchpoints—from try-on to pickup to payment—to create a superior, truly omnichannel customer experience.",
+            strategicTakeaway: "Zara provides a masterclass in using a single foundational technology (RFID) to enable a holistic ecosystem of in-store innovations. The strategy focuses relentlessly on reducing customer friction and improving efficiency. This demonstrates the immense value of investing in a core technology that can be leveraged across numerous touchpoints—from try-on to pickup to payment—to create a superior, truly omnichannel customer experience.",
             relatedConcepts: [{
                 id: 'multimodal-ai',
                 name: 'Multimodal AI'
