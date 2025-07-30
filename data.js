@@ -1,6 +1,6 @@
 // Corrected and repaired on June 10, 2025
 export const presentationContext = `
-Strategic Imperatives for Penti:
+Strategic Imperatives for Modern Retail:
 - Imperative 1: Market Growth & Adoption. The AI in retail market is growing rapidly. Generative AI in retail is projected to grow from $1.015B in 2025 to $17.268B by 2034. 89% of retailers are expected to use AI by 2025.
 - Imperative 2: AI as a Catalyst. AI is moving from process optimization to enabling entirely new business models, creating data-driven differentiation and new Al-enabled services.
 - Imperative 3: The Rise of AI Agents (and the Dawn of the 'Machine Customer'). This involves sophisticated AI agents with reasoning and planning capabilities making autonomous purchasing decisions, requiring businesses to adopt B2AI (Business-to-AI) and API-first strategies.
@@ -69,7 +69,7 @@ export const useCaseData = {
         metric: 'Localized Engagement',
         description: 'By tracking city-level trends and understanding local nuances, the AI can offer far more relevant and engaging recommendations.'
     }],
-    strategicTakeaway: "Zalando is building a comprehensive AI 'companion' that combines multiple capabilities (personalization, size prediction, generative content) to create a deeply integrated and sticky customer experience. For Penti, this shows that the future isn't about a single AI feature, but about weaving multiple AI tools together to assist the customer at every single touchpoint, from inspiration and discovery to post-purchase satisfaction.",
+    strategicTakeaway: "Zalando is building a comprehensive AI 'companion' that combines multiple capabilities (personalization, size prediction, generative content) to create a deeply integrated and sticky customer experience. This demonstrates that the future isn't about a single AI feature, but about weaving multiple AI tools together to assist the customer at every single touchpoint, from inspiration and discovery to post-purchase satisfaction.",
     relatedConcepts: [{
         id: 'data-feedback-loop',
         name: 'The Data Feedback Loop'
@@ -118,7 +118,7 @@ export const useCaseData = {
         metric: 'Enhanced Customer Experience',
         description: 'Creates a more helpful, personalized, and interactive shopping journey that bridges the gap between the digital and physical dressing room.'
     }],
-    strategicTakeaway: "Amazon's multi-pronged approach shows that solving the online apparel challenge requires more than a single feature; it demands a suite of integrated AI tools that build customer confidence. For Penti, this highlights the opportunity to identify key points of friction in its own customer journey (e.g., sizing for swimwear, styling new fashion items) and deploy targeted AI solutions to address them, thereby reducing returns and increasing loyalty.",
+    strategicTakeaway: "Amazon's multi-pronged approach shows that solving the online apparel challenge requires more than a single feature; it demands a suite of integrated AI tools that build customer confidence. This highlights the opportunity to identify key points of friction in its own customer journey (e.g., sizing for swimwear, styling new fashion items) and deploy targeted AI solutions to address them, thereby reducing returns and increasing loyalty.",
     relatedConcepts: [{
         id: 'multimodal-ai',
         name: 'Multimodal AI'
@@ -167,7 +167,7 @@ export const useCaseData = {
                 metric: 'Improved Discovery',
                 description: 'Solves the core problem of customers not being able to find products because they don\'t use the retailer\'s "official" keywords.'
             }],
-            strategicTakeaway: "Walmart's move demonstrates that the future of e-commerce search is semantic, not just keyword-based. Winning requires a deep investment in a foundational 'product attribution' data layer that teaches the AI how customers think about products. For Penti, this highlights the critical importance of enriching product data with customer-centric language to power more intelligent and conversational discovery experiences.",
+            strategicTakeaway: "Walmart's move demonstrates that the future of e-commerce search is semantic, not just keyword-based. Winning requires a deep investment in a foundational 'product attribution' data layer that teaches the AI how customers think about products. This highlights the critical importance of enriching product data with customer-centric language to power more intelligent and conversational discovery experiences.",
             relatedConcepts: [{
                 id: 'product-attribution',
                 name: 'AI-Powered Product Attribution'
@@ -305,7 +305,7 @@ export const useCaseData = {
                 metric: 'Microservices Architecture',
                 description: 'Transitioned from a monolithic batch system to an agile and scalable real-time AI platform.'
             }],
-            strategicTakeaway: "Target’s investment in a real-time personalization infrastructure shows that speed is a crucial competitive advantage. By moving beyond daily batch updates to millisecond-level recommendations, they can capture customer intent at the exact moment of interest. For Penti, this demonstrates the strategic value of an agile, API-driven architecture (like MACH) that can support real-time AI, making customer interactions immediately relevant and more profitable.",
+            strategicTakeaway: "Target’s investment in a real-time personalization infrastructure shows that speed is a crucial competitive advantage. By moving beyond daily batch updates to millisecond-level recommendations, they can capture customer intent at the exact moment of interest. This demonstrates the strategic value of an agile, API-driven architecture (like MACH) that can support real-time AI, making customer interactions immediately relevant and more profitable.",
             relatedConcepts: [{
                 id: 'mach-architecture',
                 name: 'MACH Architecture'
@@ -391,7 +391,7 @@ export const useCaseData = {
                 metric: 'Improved Loyalty',
                 description: 'The tailored experience fosters a stronger, long-term connection with the brand, encouraging repeat business.'
             }],
-            strategicTakeaway: "Starbucks' success with Deep Brew demonstrates the immense value of a strong data feedback loop from a loyalty program. For Penti, this shows that investing in AI to understand customers on a granular level can transform marketing from a cost center into a significant profit driver, creating a win-win scenario where customers receive valuable offers and the business achieves a substantial return.",
+            strategicTakeaway: "Starbucks' success with Deep Brew demonstrates the immense value of a strong data feedback loop from a loyalty program. This shows that investing in AI to understand customers on a granular level can transform marketing from a cost center into a significant profit driver, creating a win-win scenario where customers receive valuable offers and the business achieves a substantial return.",
             relatedConcepts: [{
                 id: 'data-feedback-loop',
                 name: 'The Data Feedback Loop'
@@ -439,7 +439,7 @@ export const useCaseData = {
                 "metric": "Increased Loyalty",
                 "description": "A positive and successful shopping experience fosters brand loyalty and encourages repeat business."
             }],
-            "strategicTakeaway": "For Penti, implementing 'Better Fit Technology' is a direct assault on one of the biggest challenges in apparel e-commerce: returns. This isn't just a defensive move to cut costs; it's a strategic tool to build customer trust, increase conversion rates, and gather invaluable data that can inform future product design and manufacturing for a better fit across all collections."
+            "strategicTakeaway": "Implementing 'Better Fit Technology' is a direct assault on one of the biggest challenges in apparel e-commerce: returns. This isn't just a defensive move to cut costs; it's a strategic tool to build customer trust, increase conversion rates, and gather invaluable data that can inform future product design and manufacturing for a better fit across all collections."
         }, {
             id: 'visual-search-discovery',
             company: 'Pinterest & ASOS',
@@ -480,7 +480,7 @@ export const useCaseData = {
                 metric: 'Reduced Friction',
                 description: 'Removes the challenge of trying to describe a visual item with keywords, creating a more intuitive and satisfying user experience.'
             }],
-            strategicTakeaway: "Visual search is becoming a critical top-of-funnel channel. For Penti, this means ensuring products are visually indexed and discoverable on major platforms like Pinterest is essential. Furthermore, integrating a 'Style Match' feature into Penti's own app could capture customers at their moment of inspiration, guiding them seamlessly from a social media screenshot to a specific Penti product page, thereby boosting engagement and conversion.",
+            strategicTakeaway: "Visual search is becoming a critical top-of-funnel channel. This means ensuring products are visually indexed and discoverable on major platforms like Pinterest is essential. Furthermore, integrating a 'Style Match' feature into a retailer's own app could capture customers at their moment of inspiration, guiding them seamlessly from a social media screenshot to a specific product page, thereby boosting engagement and conversion.",
             relatedConcepts: [{
                 id: 'multimodal-ai',
                 name: 'Multimodal AI'
@@ -529,7 +529,7 @@ export const useCaseData = {
                 metric: 'End-to-End Workflow',
                 description: 'Provides a single source of truth from initial concept to final marketing asset, reducing errors and improving efficiency.'
             }],
-            strategicTakeaway: "The maturation of end-to-end platforms like CLO-SET shows that 3D design is no longer a niche tool but a foundational workflow for modern fashion brands. For Penti, this highlights the opportunity to leverage such platforms to streamline the entire value chain, fostering better collaboration, increasing speed, and cutting costs.",
+            strategicTakeaway: "The maturation of end-to-end platforms like CLO-SET shows that 3D design is no longer a niche tool but a foundational workflow for modern fashion brands. This highlights the opportunity to leverage such platforms to streamline the entire value chain, fostering better collaboration, increasing speed, and cutting costs.",
             relatedConcepts: [{
                 id: '3dvd-digital-twins',
                 name: '3DVD & Digital Twins'
@@ -571,7 +571,7 @@ export const useCaseData = {
         metric: 'Minutes vs. Weeks',
         description: 'The AI tools reduce the time spent on creating new designs from several weeks down to just minutes.'
     }],
-    strategicTakeaway: "Walmart's AI apparel initiative demonstrates a powerful strategy for established retailers to compete on speed and relevance. By integrating AI at the very beginning of the product lifecycle—design and trend analysis—they can de-risk new collections and better meet immediate consumer demand. For Penti, this highlights a critical opportunity to use AI not just for optimizing existing operations, but for fundamentally accelerating the creative and go-to-market process.",
+    strategicTakeaway: "Walmart's AI apparel initiative demonstrates a powerful strategy for established retailers to compete on speed and relevance. By integrating AI at the very beginning of the product lifecycle—design and trend analysis—they can de-risk new collections and better meet immediate consumer demand. This highlights a critical opportunity to use AI not just for optimizing existing operations, but for fundamentally accelerating the creative and go-to-market process.",
     relatedConcepts: [{
         id: 'predictive-supply-chain',
         name: 'Predictive Supply Chain & Demand Forecasting'
@@ -613,7 +613,7 @@ export const useCaseData = {
                 metric: 'Automated Decisions',
                 description: 'The system automates decisions for thousands of stores and distribution centers, a task previously done by thousands of employees.'
             }],
-            strategicTakeaway: "Walmart's system is a prime example of using AI for autonomous decision-making in a core business process. It shows a shift from AI as a simple recommendation tool to a system that executes complex tasks at scale. For Penti, this highlights the potential to automate core operational functions to improve efficiency and allow employees to focus on more strategic work.",
+            strategicTakeaway: "Walmart's system is a prime example of using AI for autonomous decision-making in a core business process. It shows a shift from AI as a simple recommendation tool to a system that executes complex tasks at scale. This highlights the potential to automate core operational functions to improve efficiency and allow employees to focus on more strategic work.",
             relatedConcepts: [{
                 id: 'predictive-supply-chain',
                 name: 'Predictive Supply Chain & Demand Forecasting'
@@ -658,7 +658,7 @@ export const useCaseData = {
         metric: 'Enhanced Data Security',
         description: 'Building its own models allows Walmart to leverage its most valuable asset—its data—without sharing it with third-party AI vendors.'
     }],
-    strategicTakeaway: "Walmart's decision to build its own foundational LLMs is a major strategic move. It shows a commitment to leveraging its unique data as a core competitive advantage. For Penti, this highlights the long-term strategic choice between using off-the-shelf AI tools versus investing in proprietary models trained on its own customer and operational data to create truly unique and defensible AI capabilities.",
+    strategicTakeaway: "Walmart's decision to build its own foundational LLMs is a major strategic move. It shows a commitment to leveraging its unique data as a core competitive advantage. This highlights the long-term strategic choice between using off-the-shelf AI tools versus investing in proprietary models trained on its own customer and operational data to create truly unique and defensible AI capabilities.",
     relatedConcepts: [{
         id: 'mach-architecture',
         name: 'MACH Architecture'
@@ -707,7 +707,7 @@ export const useCaseData = {
                 metric: 'Data-Driven Pricing',
                 description: 'Prices are informed by real-time demand signals, not historical forecasting, maximizing profitability on trending items.'
             }],
-            strategicTakeaway: "SHEIN's success demonstrates the immense power of a fully integrated, AI-native retail model that blurs the lines between marketing, production, and pricing. For Penti, this shows how a deep investment in a data-first, agile supply chain can become the ultimate competitive advantage, enabling hyper-responsiveness to the market.",
+            strategicTakeaway: "SHEIN's success demonstrates the immense power of a fully integrated, AI-native retail model that blurs the lines between marketing, production, and pricing. This shows how a deep investment in a data-first, agile supply chain can become the ultimate competitive advantage, enabling hyper-responsiveness to the market.",
             relatedConcepts: [{
                 id: 'predictive-supply-chain',
                 name: 'Predictive Supply Chain & Demand Forecasting'
@@ -755,7 +755,7 @@ export const useCaseData = {
                 metric: 'Reduced Waste',
                 description: 'By better matching price to demand, the system helps reduce end-of-life overstock, contributing to sustainability goals.'
             }],
-            strategicTakeaway: "H&M's strategy shows how AI can be a powerful tool for optimizing traditional retail models. It proves that even without a complete overhaul of the supply chain, AI can deliver significant value by making core processes like pricing and markdowns more precise, profitable, and sustainable. For Penti, this highlights the opportunity to apply AI to existing challenges to drive immediate financial improvements.",
+            strategicTakeaway: "H&M's strategy shows how AI can be a powerful tool for optimizing traditional retail models. It proves that even without a complete overhaul of the supply chain, AI can deliver significant value by making core processes like pricing and markdowns more precise, profitable, and sustainable. This highlights the opportunity to apply AI to existing challenges to drive immediate financial improvements.",
             relatedConcepts: [{
                 id: 'dynamic-pricing-promotions',
                 name: 'Dynamic Pricing & Promotion Optimization'
@@ -800,7 +800,7 @@ export const useCaseData = {
                 metric: 'Up to 65% Reduction',
                 description: 'Industry benchmark for lost sales from stockouts, which AI helps prevent through proactive inventory management.'
             }],
-            strategicTakeaway: "Levi's application of agentic AI demonstrates a shift from simple automation to autonomous operational management. By allowing AI to make key decisions in forecasting and inventory, they create a more resilient, efficient, and sustainable supply chain. For Penti, this highlights that the future of operations lies in building intelligent systems that can self-regulate, reducing reliance on manual intervention and aligning the entire supply chain with real-time customer demand.",
+            strategicTakeaway: "Levi's application of agentic AI demonstrates a shift from simple automation to autonomous operational management. By allowing AI to make key decisions in forecasting and inventory, they create a more resilient, efficient, and sustainable supply chain. This highlights that the future of operations lies in building intelligent systems that can self-regulate, reducing reliance on manual intervention and aligning the entire supply chain with real-time customer demand.",
             relatedConcepts: [{
                 id: 'agentic-ai-machine-customer',
                 name: 'Agentic AI & The Machine Customer'
@@ -848,7 +848,7 @@ export const useCaseData = {
                 metric: 'Enhanced Agility',
                 description: 'Enables the boutique to react quickly to emerging micro-trends and shifts in the competitive landscape.'
             }],
-            strategicTakeaway: "Antonioli's strategy demonstrates that AI in operations isn't just for massive retailers. For a luxury player, AI can sharpen the two most critical levers: buying and pricing. This integrated approach ensures the right product is on the shelf at the right price. For Penti, this highlights a significant opportunity to use AI not just for inventory planning, but to develop more sophisticated, data-driven pricing and promotion strategies to improve margins.",
+            strategicTakeaway: "Antonioli's strategy demonstrates that AI in operations isn't just for massive retailers. For a luxury player, AI can sharpen the two most critical levers: buying and pricing. This integrated approach ensures the right product is on the shelf at the right price. This highlights a significant opportunity to use AI not just for inventory planning, but to develop more sophisticated, data-driven pricing and promotion strategies to improve margins.",
             relatedConcepts: [{
                 id: 'dynamic-pricing-promotions',
                 name: 'Dynamic Pricing & Promotion Optimization'
@@ -893,7 +893,7 @@ export const useCaseData = {
                 metric: 'Data-Driven Decisions',
                 description: 'Utilizes predictive analytics from partners like First Insight to make more informed decisions about product design and pricing.'
             }],
-            strategicTakeaway: "M&S's composable strategy is a masterclass in future-proofing IT infrastructure. For Penti, this demonstrates that the path to AI leadership isn't about finding a single 'do-it-all' vendor, but about building an agile MACH foundation that allows the business to rapidly integrate the best available tool for each specific challenge, from in-store operations to customer service.",
+            strategicTakeaway: "M&S's composable strategy is a masterclass in future-proofing IT infrastructure. This demonstrates that the path to AI leadership isn't about finding a single 'do-it-all' vendor, but about building an agile MACH foundation that allows the business to rapidly integrate the best available tool for each specific challenge, from in-store operations to customer service.",
             relatedConcepts: [{
                 id: 'mach-architecture',
                 name: 'MACH Architecture'
@@ -938,7 +938,7 @@ export const useCaseData = {
                 metric: 'Reduced Risk',
                 description: 'The ability to deploy services independently allowed for faster, incremental changes with lower risk compared to updating a monolithic system.'
             }],
-            strategicTakeaway: "Petco's transformation demonstrates that foundational architectural choices are a direct driver of business agility. For Penti, this shows that investing in a modern, microservices-based foundation (like MACH) is a prerequisite for rapidly delivering the seamless digital and phygital experiences that modern customers demand.",
+            strategicTakeaway: "Petco's transformation demonstrates that foundational architectural choices are a direct driver of business agility. This shows that investing in a modern, microservices-based foundation (like MACH) is a prerequisite for rapidly delivering the seamless digital and phygital experiences that modern customers demand.",
             relatedConcepts: [{
                 id: 'mach-architecture',
                 name: 'MACH Architecture'
@@ -1036,7 +1036,7 @@ export const useCaseData = {
                 metric: '85%',
                 description: 'Successful caller authentication rate, streamlining the customer experience from the start.'
             }],
-            strategicTakeaway: "DSW's success proves that a well-integrated AI support agent can significantly improve CSAT while cutting operational costs. For Penti, the key insight is that this level of automation, especially for real-time order tracking and refund processing, is not possible with a standalone tool. It requires a modern, flexible architecture. A microservices-based foundation (like MACH) is the key enabler that allows for the seamless, two-way integration between the AI agent and a core Order Management System (OMS), creating a truly connected and efficient customer experience.",
+            strategicTakeaway: "DSW's success proves that a well-integrated AI support agent can significantly improve CSAT while cutting operational costs. For the modern retailer, the key insight is that this level of automation, especially for real-time order tracking and refund processing, is not possible with a standalone tool. It requires a modern, flexible architecture. A microservices-based foundation (like MACH) is the key enabler that allows for the seamless, two-way integration between the AI agent and a core Order Management System (OMS), creating a truly connected and efficient customer experience.",
             relatedConcepts: [{
                 id: 'ai-customer-service',
                 name: 'AI-Powered Customer Service'
@@ -1081,7 +1081,7 @@ export const useCaseData = {
                 metric: '33%',
                 description: 'Opt-in rate for SMS notifications, showing customer willingness to engage via automated channels.'
             }],
-            strategicTakeaway: "PacSun's strategy demonstrates the evolution of AI in customer service: from pure cost-saving automation to proactive, revenue-generating engagement. By not just solving a problem but also recommending a relevant next purchase, they create a win-win situation. For Penti, this highlights the opportunity to view customer support as a key part of the commerce journey, leveraging AI to drive incremental sales and deepen customer relationships during every interaction.",
+            strategicTakeaway: "PacSun's strategy demonstrates the evolution of AI in customer service: from pure cost-saving automation to proactive, revenue-generating engagement. By not just solving a problem but also recommending a relevant next purchase, they create a win-win situation. This highlights the opportunity to view customer support as a key part of the commerce journey, leveraging AI to drive incremental sales and deepen customer relationships during every interaction.",
             relatedConcepts: [{
                 id: 'conversational-commerce',
                 name: 'AI-Powered Conversational Commerce'
@@ -1107,7 +1107,7 @@ export const useCaseData = {
                 metric: 'Enhanced Experience',
                 description: 'Enhances the guest experience and strengthens brand reputation.'
             }],
-            strategicTakeaway: "Marriott's use of sentiment analysis shows the power of listening to the customer at scale. For Penti, this highlights an opportunity to use AI to systematically analyze customer feedback from reviews and social media to identify product/service issues and emerging trends proactively.",
+            strategicTakeaway: "Marriott's use of sentiment analysis shows the power of listening to the customer at scale. This highlights an opportunity to use AI to systematically analyze customer feedback from reviews and social media to identify product/service issues and emerging trends proactively.",
             relatedConcepts: [{
                 id: 'ai-customer-service',
                 name: 'AI-Powered Customer Service'
@@ -1193,7 +1193,7 @@ export const useCaseData = {
                 metric: 'Improved Agent Focus',
                 description: 'Frees human agents from administrative tasks, allowing them to concentrate more on direct customer interaction and complex problem-solving.'
             }],
-            strategicTakeaway: "Best Buy's approach demonstrates a holistic AI implementation that creates value across the entire customer journey. For Penti, this highlights the importance of not only deploying customer-facing AI but also investing in agent- and employee-facing tools. Creating internal efficiencies, like the 90-second time saving for agents, directly enhances the customer experience and boosts overall operational effectiveness.",
+            strategicTakeaway: "Best Buy's approach demonstrates a holistic AI implementation that creates value across the entire customer journey. This highlights the importance of not only deploying customer-facing AI but also investing in agent- and employee-facing tools. Creating internal efficiencies, like the 90-second time saving for agents, directly enhances the customer experience and boosts overall operational effectiveness.",
             relatedConcepts: [{
                 id: 'ai-customer-service',
                 name: 'AI-Powered Customer Service'
@@ -1243,7 +1243,7 @@ export const useCaseData = {
             metric: 'Improved Digital Experience',
             description: 'Creates a more visually engaging and personalized shopping journey for customers, tailored to their specific location and context.'
         }],
-        strategicTakeaway: "Puma's use of Generative AI is a masterclass in scaling marketing localization. It democratizes content creation, allowing a central team to serve global markets with relevant imagery without the massive overhead of regional photoshoots. For Penti, this demonstrates a clear path to making its digital presence more engaging in international markets efficiently, ensuring brand consistency while respecting local culture.",
+        strategicTakeaway: "Puma's use of Generative AI is a masterclass in scaling marketing localization. It democratizes content creation, allowing a central team to serve global markets with relevant imagery without the massive overhead of regional photoshoots. This demonstrates a clear path to making its digital presence more engaging in international markets efficiently, ensuring brand consistency while respecting local culture.",
         relatedConcepts: [{
             id: 'multimodal-ai',
             name: 'Multimodal AI'
@@ -1288,7 +1288,7 @@ export const useCaseData = {
         metric: 'End-to-End Solution',
         description: 'Transforms the platform from a passive marketplace into an intelligent ecosystem with features for market research, supplier negotiation, and lead generation.'
     }],
-    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. For Penti, this highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making it faster, more data-driven, and more efficient.",
+    strategicTakeaway: "Accio’s success demonstrates the immense value of integrating generative and agentic AI into a core B2B platform, transforming it from a simple directory into an intelligent sourcing partner. This highlights the potential of building or leveraging similar AI tools to streamline its own B2B sourcing and supplier management, making it faster, more data-driven, and more efficient.",
     relatedConcepts: [{
         id: 'agentic-ai-machine-customer',
         name: 'Agentic AI & The Machine Customer'
