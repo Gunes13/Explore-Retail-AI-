@@ -1256,7 +1256,7 @@ export const useCaseData = {
     image: '/images/alibaba-accio.png', // You would need to add a relevant image here
     imperativeLink: 'Transformation 4: Generative & Agentic AI',
     isCustom: true,
-    youtubeUrl: null,
+    youtubeUrl: 'https://www.youtube.com/watch?v=x4ZX2ayEUnA&t=9s',
     businessModel: "Accio represents a pivotal shift in Alibaba’s business model, moving from a traditional e-commerce platform to an AI-driven, intelligent trade ecosystem. By automating sourcing, providing actionable market insights, and enhancing user experience, Accio strengthens Alibaba’s core B2B marketplace and extends its value proposition to small and medium-sized enterprises (SMEs) globally.",
     processSteps: [{
         icon: 'ai',
